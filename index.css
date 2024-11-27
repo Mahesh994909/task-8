@@ -1,0 +1,64 @@
+.main {
+  border: 2px solid;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.div1,
+.div2,
+.div3 {
+  border: 2px solid;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.div1 div img {
+  border: 2px solid;
+  height: 100px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: aqua;
+}
+.div2 div img {
+  border: 2px solid;
+  height: 150px;
+  width: 150px;
+  background-color: blanchedalmond;
+  border-radius: 20px;
+}
+.b2 {
+  flex-grow: 3;
+}
+.div3 div img {
+  border: 2px solid;
+  width: 150px;
+  height: 100px;
+  background-color: rgb(224, 143, 143);
+  border-radius: 20px;
+}
+img {
+  border: 2px solid;
+  width: 250px;
+  height: 250px;
+}
+@media screen and (min-width: 0px) and (max-width: 425px) {
+  .div5,
+  .div6 {
+    display: none;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .div4,
+  .div6 {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .div4,
+  .div5 {
+    display: none;
+  }
+}
